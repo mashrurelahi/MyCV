@@ -22,12 +22,12 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage{enumitem}
-\usepackage[left=0.5 in,top=0.2 in,right=0.5 in,bottom=0.2 in]{geometry} % Document margins
+\usepackage[left=0.5 in,top=0.3 in,right=0.5 in,bottom=0.3 in]{geometry} % Document margins
 
 \name{G M MASHRUR E ELAHI} % Your name
 
 \address{Apt\#401-10715 103 ST, NW Edmonton, Canada AB T5H 2V7} % Your secondary addess (optional)
-\address{GitHub: https://github.com/mashrurelahi     Linkedin: https://ca.linkedin.com/in/mashrurelahi}%
+\address{ Linkedin: https://ca.linkedin.com/in/mashrurelahi, GitHub: https://github.com/mashrurelahi }%
 \address{(780)~$\cdot$~680~$\cdot$~5503 \\ eelahi@ualberta.ca} 
 
 \begin{document}
@@ -41,7 +41,7 @@
 {\bf University of Alberta}, Edmonton Canada \hfill {\em Expected graduation date August 2016}\\ 
 MSc. in Computing Science \\
 Overall GPA: 3.5/4.0\\
-{\bf Khulna University of Engineering \& Technology}, Khulna Bangladesh \hfill {\em April 2009} \\ 
+{\bf Khulna University of Engineering \& Technology (KUET)}, Khulna Bangladesh \hfill {\em April 2009} \\ 
 BSc. in Computer Science \& Engineering\\
 Overall GPA: 3.75/4.0, Class Position 2nd
 
@@ -53,33 +53,40 @@ Overall GPA: 3.75/4.0, Class Position 2nd
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Research Assistant}{April 2015 - Present}{University of Alberta}{Edmonton, Canada}
-\item[$\bullet$] Designed an exact algorithm to find the connectivity between sensor nodes of an Underwater Wireless Sensor Network (UWSNs).
-\item[$\bullet$] The problem is NP-complete on general graph. So we modeled the graph as a partial $k$-tree to find out the exact solution.
-\item[$\bullet$] We use dynamic programming paradigm to solve the above mention problem.
-\item[$\bullet$] Our devised tree algorithm are implemented in C++ with the use of STL (Standard Template Library).
+\begin{rSubsection}{University of Alberta}{April 2015 - Present}{Research Assistant}{Edmonton, Canada}
+\item[$\bullet$] Designed and developed a biomarker based on well known CoHOG method to extract and select meaningful texture features from MRI images of the brain to classify between the patients and normal person for a specific disease (ALS). 
+
+\item[$\bullet$] Extracted and selected features are applied to SVM classifier and found 93\% classification accuracy that outperforms other well known methods by 11\%.
+
+\item[$\bullet$] The biomarker was implemented using both Matlab (2015b) and C++ languages.
 \end{rSubsection}
-
-
 %------------------------------------------------
 
-\begin{rSubsection}{University of Alberta}{September 2012 - May 2014}{Teaching Assistant}{Edmonton, Canada}
+\begin{rSubsection}{University of Alberta}{September 2014 - April 2016}{Teaching Assistant}{Edmonton, Canada}
 %\begin{itemize}[noitemsep,nolistsep]
-\item[$\bullet$] Courses: Introduction to Python, Security in a Network World, Computer Networks.
-\item[$\bullet$] Promoted to lead TA based on students evaluation and experiences.
-\item[$\bullet$] Introduce GUI along with command line interface to make the laboratory more interactive.
-\item[$\bullet$] Mainly used C++ and Java to present and solving laboratory assignment in Linux environment. 
+\item[$\bullet$] Taught computing basics and preliminary programming with help of BeeperBot and Python Programming environment.
+
+\item[$\bullet$] Guide students to learn basic programming and evaluate them in the laboratory.
+\item[$\bullet$] The lab was performed in Linux Environment.
 %\end{itemize}
 \end{rSubsection}
 %------------------------------------------------
-\begin{rSubsection}{Khulna University of Engineering \& Technology}{July 2009 - August 2012}{Lecturer/Instructor}{Khulna, Bangladesh}
+
+\begin{rSubsection}{Khulna University of Engineering \& Technology}{July 2009 - August 2014}{Lecturer/Instructor}{Khulna, Bangladesh}
 %\begin{itemize}\end{itemize}
-\item[$\bullet$] Courses: Data Structures and Algorithm, Computer Networks, Security in computer Networks.
-\item[$\bullet$] Supervise software development projects.
-\item[$\bullet$] Conduct theory and laboratory where student uses Java, C$\#$, Oracle, Mysql, HTML5, PHP to complete their assignments and projects. 
+\item[$\bullet$] Conducted Computer Graphics, Algorithm Analysis and Design, Database systems, and Object Oriented Programming using C++ courses. 
+\item[$\bullet$] Supervised different software development projects.
+\item[$\bullet$] Performed theories and laboratories where student uses C++, C\#, Oracle, MySQL, HTML5, PHP, OpenCV, OpenGL to complete their assignments and projects.
 %\end{itemize}
 \end{rSubsection}
 %------------------------------------------------
+
+\begin{rSubsection}{Cisco Networking Academy Program (CNAP), KUET}{July 2013 - August 2014}{Instructor}{Khulna, Bangladesh}
+\item[$\bullet$] Conducted courses that includes Network Fundamentals, Routing Protocols and Concepts, LAN Switching and Wireless LAN, and Accessing the WAN. 
+\item[$\bullet$] Conducted laboratories based on these courses using most common Routers and Switches. 	
+\end{rSubsection}
+%-------------------------------------------------
+
 \end{rSection}
 %\begin{rSection}{Other Experience}
 %%\begin{itemize}\end{itemize}
@@ -92,73 +99,65 @@ Overall GPA: 3.75/4.0, Class Position 2nd
 %\end{rSection}
 
 %---------------------------------------------------------------------
-%selected Projects--
+%SELECTED PROJECTS--
 %-----------------------------------------------------------------------
 \begin{rSection}{Selected Projects}
-{\bf Google Maps API for Sewer Cleaning}\hfill{\em July 2014}\\
-We use Google Map API along with VB.NET Framework and XML parser. By using Java Script we requested information for route of two locations from Google API. We used XML to extract distance and duration between a number of places from the response message. We use time to complete the cleaning task and travel time to find the optimal route using an heuristic algorithm. This project was between city of Edmonton and University of Alberta.
 
-{\bf Natural Language Identification using Bayesian Networks}\hfill {\em April 2013}\\
-We identified author’s native language using his/her writing in second language (English). We used 10000 TOEFL essays as input which is written by the people whose native languages are  Chinese, French, German, Japanese, and Turkish. We used a tool named Weka for feature extraction and different Probabilistic graphical models along with Support Vector Machine (SVM) for classification of those feature into five classes. We compare the results and our probabilistic graphical model, Baysian network was providing an  85.4\% accuracy which was 0.35\% better than the best existing approach and published the results in IEEE Xplore.
+\begin{rSubsection}{New Distributed Evolutionary Algorithm for Multi-Objective Optimization}{March 2009}{}{}
+\item[$\bullet$] A new distributed Evolutionary Computational Technique was proposed to optimize multiple objectives in a distributed environment effectively. We used C\# multi-threading technique for implementation. We published the work in IEEEXplore Computer Magazine.	
+\end{rSubsection}
+%----------------------------
 
+\begin{rSubsection}{Design of Development of KUET (CSE) Website}{January 2008}{}{}	
+\item[$\bullet$] This dynamic website was developed Providing Information on Students, Teachers and
+Staffs. Platform - PHP, MySQL Server 5, Flash 5, Ajax, JavaScript.
+\end{rSubsection}
+%----------------------------
 
-{\bf Recognize Bangla Character using Support Vector Machine (SVM)}\hfill { \em December 2012}\\
-In this project, we designed a classifier by using SVM which is able to classify handwritten Bangla Numerals. We got
-10000 data and used 90\% for training and 10\% for testing. 
- Our classifier was able to classify 95\% of text correctly which is 2.3\% better than the existing classifier.
- We used Matlab for implementing the SVM.
+\begin{rSubsection}{Bangla Mailing software using Unicode}{July 2007}{}{}
+\item[$\bullet$] Bangla Mailing Software was developed to helps people to Email in Bangla language using
+Unicode. Platform- C\#, MS SQL Server 2005.
+\end{rSubsection}
+%----------------------------
 
+\begin{rSubsection}{Design A Statistical Database for Weather Forecasting}{July 2007}{}{}				
+\item[$\bullet$] This software was developed for analysis weather info from collected data by using
+Microsoft Visual Basic 6.0 \& SQL Server 2000.
+\end{rSubsection}
+%---------------------------
 
-{\bf New Distributed Evolutionary Algorithm for Multi-Objective Optimization    }\hfill {\em   March 2009}\\
- We proposed a new Distributed Novel Evolutionary Strategy Algorithm (DNESA) for Multi-Objective Optimization.
- Our proposed DNESA applies the divide-and-conquer approach to decompose population into smaller sub-populations. We used C\# multi-threading technique for implementation.
- We compared our results with well-known benchmark solution and for some most of the cases our algorithm provided better results. We published the work in IEEE Xplore Computer Magazine.
-
-{\bf Design A Statistical Database for Weather Forecasting}\hfill{\em July 2007}
-
-We collected ten years data from a weather station and design a database by SQL server 2000.
-We analyzed data and designed an algorithm based on Markov model for predicting upcoming days temperature. 
-We used VB.NET for Graphical User Interface (GUI) as front-end development along with back-end SQL.
-
-{\bf Design and development of CSE KUET Website}\hfill{\em July 2007}
-
- It was a system analysis and design project.
- We collected and analyzed information about faculties, students and other stuffs from our department.
- We designed a database by MySQL which store the information and interact with the front-end.
- Those information were used to design and development of dynamic website using  PHP and HTML5.
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Certification}
-{\bf Cisco Certified Network Associate(CCNA)} \hfill {\em Version 4.0}\hfill {\em GPA 4.0/4.0\\}
-{\bf Network Fundamentals:} OSI Layer, Addressing the Network IPv4, IPv6, Ethernet, Cabling\\
-{\bf Routing Protocols and Concepts:} Static and Dynamic Routing,VLSM, CIDR, OSPF, RIP, EIGRP\\
-{\bf LAN Switching and Wireless:} LAN Design,Configure Switch, VLANs,VTP,STP\\
-{\bf Accessing the WAN:} Networking to WAN, PPP, Frame Relay, Network Security, ACL
+\begin{rSection}{ACHIEVEMENT AND CERTIFICATIONS}
+
+\begin{rSubsection}{}{}{}{}
+\item[$\bullet$] {\bf ACM ICPC Dhaka site Programming contest:} Eleventh Place among 85 teams including Bangladesh, China and India. The contest held in December 8, 2007.
+\item[$\bullet$] {\bf CCNA (Cisco Certified Network Associate):} Exploration Version 4.0. Student course completed with A+ in all semester.
+\item[$\bullet$] {\bf CCNA (Instructor training):} Exploration Version 4.0. Instructor training course completed successfully.
+
+\end{rSubsection}
+
+
+
+
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
+%	MANAGEMENT AND LEADERSHIP SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Strengths}
+\begin{rSection}{MANAGEMENT AND LEADERSHIP}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Software & UNIX C/C++, Visual Studio 2013, Eclipse, Netbeans\\
-Computer Languages & C/C++, Java, C\#,ASP.NET, Python,Ruby on Rail, PHP, JavaScript,Perl \\
-CMS & Drupal, CakePHP.\\
-Protocols \& APIs  & JSON, CSS, TCP/IP,Google Maps API \\
-Databases & MySQL, Oracle, Microsoft SQL \\
-Tools & Git, Vim, Emacs\\
+\begin{rSubsection}{}{}{}{}
+\item[$\bullet$]{\bf Coach,} ACM ICPC Dhaka site programming contest. \hfill {\em for the year 2011, 2012, and 2013}
+\item[$\bullet$] {\bf Treasurer,} CSE Student Association, KUET. \hfill {\em June 2010 – May 2012}
+\item[$\bullet$] {\bf Organizing committee member,} KUET Programming Contest. \hfill {\em Jan 2007 – March 2009}
+\end{rSubsection}
 
-Operating System& Linux, Windows\\
-
-Servers and Machine & Windows Servers, Linux Sever Machine, Network Trouble Shooting, LAN Setup
-\end{tabular}
-  
 \end{rSection}
 
 
